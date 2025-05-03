@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(153, 65, 211, 0.904);
+}
+button{
+    display: flex;
+    background-color: rgb(14, 204, 14);
+    border-width: 3px;
+    border-color:rgb(255, 255, 255);  
+    width: 50vw;
+    height: 50px;
+    margin: 10px 25vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: inset 5px 1px 20px black , 1px 2px 5px black;
+    font-size: 20px;
+    user-select: none;
+ 
+ }
+ button:hover{
+     background-color: aqua;
+     cursor: pointer;
+ }
+ #logo1{
+     width: 80vw;
+     height: 40px;
+ }
